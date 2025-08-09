@@ -3,6 +3,7 @@
 :root {
   --background: #F9F7F3;
   --foreground: #171717;
+  --std-black: #1E1E1E;
 
   --sec-inactive: #8B8B8B;
 }
@@ -10,21 +11,17 @@
 @theme inline {
   /* Main Colors */
   --color-background: var(--background);
+  --color-main-black: var(--std-black);
 
   /* Secondary Colors */
   --color-sec-inactive: var(--sec-inactive);
 
+  /* Fonts */
   --font-julius: var(--font-julius-sans);
   --font-lexend: var(--font-lexend-sans);
 }
 
-/* @theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
+/* 
 @media (prefers-color-scheme: dark) {
   :root {
     --background: #0a0a0a;
