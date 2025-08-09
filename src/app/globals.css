@@ -1,11 +1,12 @@
 @import "tailwindcss";
 
 :root {
-  --background: #F9F7F3;
+  --background: #f9f7f3;
   --foreground: #171717;
-  --std-black: #1E1E1E;
+  --light-text: #f9f7f3;
+  --std-black: #1e1e1e;
 
-  --sec-inactive: #8B8B8B;
+  --sec-inactive: #8b8b8b;
 }
 
 @theme inline {
@@ -15,6 +16,7 @@
 
   /* Secondary Colors */
   --color-sec-inactive: var(--sec-inactive);
+  --color-light-text: var(--light-text);
 
   /* Fonts */
   --font-julius: var(--font-julius-sans);
