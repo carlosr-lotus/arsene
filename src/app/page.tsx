@@ -6,7 +6,7 @@ import Button from "@/components/Button";
 
 export default function Home() {
   return (
-    <div className="font-lexend p-5 text-main-black">
+    <div className="p-5 text-main-black">
       <Header />
       <main className="flex flex-col gap-6">
         <div className="grid gap-1 grid-rows-[25rem_12.5rem_12.5rem] md:h-[calc(100vh-100px)] md:grid-cols-[50%_1fr] md:grid-rows-[50%_50%]">
@@ -36,7 +36,7 @@ export default function Home() {
             }}
           />
         </div>
-        <Button />
+        <Button name="Meet Parfum" className="md:w-[15rem] md:place-self-end" />
       </main>
       <footer></footer>
     </div>

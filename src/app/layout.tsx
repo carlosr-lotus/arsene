@@ -20,8 +20,8 @@ const juliusSans = Julius_Sans_One({
 
 const lexendSans = Lexend({
   variable: "--font-lexend-sans",
-  subsets: ["latin"]
-})
+  subsets: ["latin"],
+});
 
 export const metadata: Metadata = {
   title: "Arsene",
@@ -36,7 +36,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} ${juliusSans.variable} ${lexendSans.variable} antialiased`}
+        className={`${geistSans.variable} ${geistMono.variable} ${juliusSans.variable} ${lexendSans.variable} font-lexend antialiased`}
       >
         {children}
       </body>
