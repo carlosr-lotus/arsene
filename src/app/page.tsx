@@ -3,6 +3,7 @@ import Image from "next/image";
 import Header from "@/components/Header/Header";
 import Video from "@/components/Video/Video";
 import Button from "@/components/Button";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -36,7 +37,9 @@ export default function Home() {
             }}
           />
         </div>
-        <Button name="Meet Parfum" className="md:w-[15rem] md:place-self-end" />
+        <Link href={"/parfum"} className="md:w-[15rem] md:place-self-end">
+          <Button name="Meet Parfum" className="w-full" />
+        </Link>
       </main>
       <footer></footer>
     </div>
