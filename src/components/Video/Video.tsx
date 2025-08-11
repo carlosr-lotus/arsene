@@ -3,7 +3,7 @@ export default function Video() {
     <video
       width="100"
       height="auto"
-      className="w-full h-full object-cover"
+      className="w-full h-full object-cover md:row-span-2"
       poster="poster-video-index.png"
       preload="none"
       autoPlay
