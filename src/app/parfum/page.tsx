@@ -8,23 +8,18 @@ export default function ParfumPage() {
     <div className="p-5">
       <Header />
       <main className="flex flex-col gap-6 md:grid md:grid-cols-[1fr_1fr]">
-        <div className="grid gap-1 grid-cols-[1fr_1fr] grid-rows-[20rem_10rem_10rem] md:grid-rows-[auto_auto_auto]">
+        <div className="grid gap-1 grid-cols-[1fr_1fr] grid-rows-[20rem_10rem_10rem] md:grid-rows-[calc(100vh-100px)_auto_auto]">
           <div className="col-start-1 col-end-3">
             <Image
               src={"/parfum-product-1.jpg"}
               alt="parfum standing on sand"
-              width={300}
-              height={300}
+              width={400}
+              height={400}
               className="w-full h-full object-cover object-[center_55%] md:object-[center_60%]"
-              // style={{
-              //   width: "100%",
-              //   height: "100%",
-              //   objectFit: "cover",
-              //   objectPosition: "center",
-              //   gridColumn: "1/3",
-              // }}
+              priority
             />
           </div>
+
           <div>
             <Image
               src={"/parfum-product-2.jpg"}
@@ -32,31 +27,19 @@ export default function ParfumPage() {
               width={300}
               height={300}
               className="w-full h-full object-cover object-center"
-              // style={{
-              //   width: "100%",
-              //   height: "100%",
-              //   objectFit: "cover",
-              //   objectPosition: "center",
-              // }}
             />
           </div>
+
           <div className="col-start-2 row-start-2 row-end-4">
             <Image
               src={"/parfum-product-3.jpg"}
               alt="parfum upper view"
-              width={300}
-              height={300}
+              width={400}
+              height={400}
               className="w-full h-full object-cover object-center"
-              // style={{
-              //   width: "100%",
-              //   height: "100%",
-              //   objectFit: "cover",
-              //   objectPosition: "center",
-              //   gridColumn: "2",
-              //   gridRow: "2/4",
-              // }}
             />
           </div>
+
           <div>
             <Image
               src={"/parfum-product-4.jpg"}
@@ -64,12 +47,6 @@ export default function ParfumPage() {
               width={300}
               height={300}
               className="w-full h-full object-cover object-center"
-              // style={{
-              //   width: "100%",
-              //   height: "100%",
-              //   objectFit: "cover",
-              //   objectPosition: "center",
-              // }}
             />
           </div>
         </div>

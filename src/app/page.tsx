@@ -25,7 +25,7 @@ export default function Home() {
             }}
           />
           <Image
-            src={"/pexels-mohammad-gharib-2150556332-33280212.jpg"}
+            src={"/model-white-glasses.jpg"}
             alt="model with white glasses looking to her front"
             width={500}
             height={500}
