@@ -7,6 +7,10 @@
   --std-black: #1e1e1e;
 
   --sec-inactive: #8b8b8b;
+  --sec-border-product-color: #b4b4b4;
+  --sec-product-color: #c6a664;
+  --sec-active-product-size: #777777;
+  --sec-inactive-product-size: #e2e2e2;
 }
 
 @theme inline {
@@ -17,6 +21,10 @@
   /* Secondary Colors */
   --color-sec-inactive: var(--sec-inactive);
   --color-light-text: var(--light-text);
+  --color-border-product-color: var(--sec-border-product-color);
+  --color-product-color: var(--sec-product-color);
+  --color-active-product-size: var(--sec-active-product-size);
+  --color-inactive-product-size: var(--sec-inactive-product-size);
 
   /* Fonts */
   --font-julius: var(--font-julius-sans);
